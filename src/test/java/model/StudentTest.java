@@ -64,7 +64,7 @@ public class StudentTest {
         Student stud1= new Student("fghs5679", "Pop", "Gigel", 342);
         Student stud2= new Student("abcd1234", "Ionescu", "Viorica", 212);
         assertEquals(342, stud1.getGroup());
-        assertEquals(213, stud2.getGroup());
+        assertEquals(212, stud2.getGroup());
 
     }
 
